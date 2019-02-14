@@ -1,0 +1,63 @@
+.media-icons li {
+    display: inline-block;
+    margin:10px;
+    margin-left: 15px; 
+}
+
+.nav_menu {
+    background-color: white;
+}
+.skills,.rating {
+    width:90%;
+    padding:10px;
+}
+
+.profile{
+    padding:5px;
+    align-content: center;
+}
+
+.profile_info {
+    float: none;
+}
+.profile_info h2{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.profile_pic{
+    float:none;
+    width:50%;
+    align-content: center;
+}
+.location {
+    padding:10px;
+}
+#close-sidebar{
+    cursor:pointer;
+    float:right;
+    display: none;
+}
+
+.fa-lgr {
+    font-size: 1.6em;
+}
+
+@media(max-width:768px){
+    .toggle{
+        float: none;
+    }
+
+    .nav .navbar-nav > li >a  {
+        align-content: center;
+    }
+
+    .hidden-big{
+        display: block;
+    }
+
+    #close-sidebar {
+        display: block;
+    }
+
+}
